@@ -12,3 +12,4 @@
 ## X-Curse-Project-ID: 714824
 
 VaultoftheIncarnates.lua
+AberrustheShadowedCrucible.lua
