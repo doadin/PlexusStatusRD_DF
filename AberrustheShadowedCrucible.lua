@@ -93,3 +93,4 @@ GridStatusRaidDebuff:DebuffId(zoneid, 404288, 919, 5, 5, true) --infinite-duress
 GridStatusRaidDebuff:DebuffId(zoneid, 404269, 920, 5, 5, true) --ebon-might
 GridStatusRaidDebuff:DebuffId(zoneid, 403497, 921, 5, 5, true) --astral-formation
 GridStatusRaidDebuff:DebuffId(zoneid, 413106, 922, 5, 5, true) --void-might
+GridStatusRaidDebuff:DebuffId(zoneid, 408431, 922, 6, 6, true) --void-slash
