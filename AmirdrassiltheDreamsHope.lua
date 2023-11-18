@@ -1,6 +1,43 @@
 -- local zone = "Amirdrassil, the Dream's Hope"
 local zoneid = 2232
 
+--Trash
+GridStatusRaidDebuff:DebuffId(zoneid, 418720, 1, 5, 5, true) --Polymorph Bomb"
+GridStatusRaidDebuff:DebuffId(zoneid, 427299, 1, 5, 5, true) --Flash Fire"
+GridStatusRaidDebuff:DebuffId(zoneid, 424808, 1, 5, 5, true) --Lunar Blaze"
+GridStatusRaidDebuff:DebuffId(zoneid, 425573, 1, 5, 5, true) --Entangling Roots"
+GridStatusRaidDebuff:DebuffId(zoneid, 424771, 1, 5, 5, true) --Burning Wrath"
+GridStatusRaidDebuff:DebuffId(zoneid, 421298, 1, 5, 5, true) --Constricting Thicket"
+GridStatusRaidDebuff:DebuffId(zoneid, 421031, 1, 5, 5, true) --Song of the Dragon"
+GridStatusRaidDebuff:DebuffId(zoneid, 422466, 1, 5, 5, true) --Shadow Spines"
+GridStatusRaidDebuff:DebuffId(zoneid, 425528, 1, 5, 5, true) --Lasher Toxin"
+GridStatusRaidDebuff:DebuffId(zoneid, 421407, 1, 5, 5, true) --Searing Ash"
+GridStatusRaidDebuff:DebuffId(zoneid, 427306, 1, 5, 5, true) --Encased in Ash"
+GridStatusRaidDebuff:DebuffId(zoneid, 426536, 1, 5, 5, true) --Seed of Life"
+GridStatusRaidDebuff:DebuffId(zoneid, 419485, 1, 5, 5, true) --Nature's Bulwark"
+GridStatusRaidDebuff:DebuffId(zoneid, 426390, 1, 5, 5, true) --Corrosive Pollen"
+GridStatusRaidDebuff:DebuffId(zoneid, 420714, 1, 5, 5, true) --Noxious Blossom"
+GridStatusRaidDebuff:DebuffId(zoneid, 426387, 1, 5, 5, true) --Scorching Bramblethorn"
+GridStatusRaidDebuff:DebuffId(zoneid, 421470, 1, 5, 5, true) --Fire Whirl"
+GridStatusRaidDebuff:DebuffId(zoneid, 425658, 1, 5, 5, true) --Podling Toxin"
+GridStatusRaidDebuff:DebuffId(zoneid, 414777, 1, 5, 5, true) --Piercing Torment"
+GridStatusRaidDebuff:DebuffId(zoneid, 421024, 1, 5, 5, true) --Emerald Winds"
+GridStatusRaidDebuff:DebuffId(zoneid, 427297, 1, 5, 5, true) --Flame Surge"
+GridStatusRaidDebuff:DebuffId(zoneid, 425388, 1, 5, 5, true) --Inferno Heart"
+GridStatusRaidDebuff:DebuffId(zoneid, 418520, 1, 5, 5, true) --Blistering Splinters"
+GridStatusRaidDebuff:DebuffId(zoneid, 425035, 1, 5, 5, true) --Horrifying Roar"
+GridStatusRaidDebuff:DebuffId(zoneid, 428360, 1, 5, 5, true) --Melting Stomp"
+GridStatusRaidDebuff:DebuffId(zoneid, 423494, 1, 5, 5, true) --Tidal Blaze"
+GridStatusRaidDebuff:DebuffId(zoneid, 428345, 1, 5, 5, true) --Molten Claws"
+GridStatusRaidDebuff:DebuffId(zoneid, 421594, 1, 5, 5, true) --Smoldering Suffocation"
+GridStatusRaidDebuff:DebuffId(zoneid, 423195, 1, 5, 5, true) --Inflorescence"
+GridStatusRaidDebuff:DebuffId(zoneid, 424646, 1, 5, 5, true) --Burning Claws"
+GridStatusRaidDebuff:DebuffId(zoneid, 429798, 1, 5, 5, true) --Verdant Rend"
+GridStatusRaidDebuff:DebuffId(zoneid, 420858, 1, 5, 5, true) --Poisonous Javelin"
+GridStatusRaidDebuff:DebuffId(zoneid, 428077, 1, 5, 5, true) --Dream Walk"
+GridStatusRaidDebuff:DebuffId(zoneid, 425093, 1, 5, 5, true) --Shadowflame Residue"
+GridStatusRaidDebuff:DebuffId(zoneid, 425300, 1, 5, 5, true) --Shadowflame Bomb"
+GridStatusRaidDebuff:DebuffId(zoneid, 426574, 1, 5, 5, true) --Bile Spit"
 
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Gnarlroot")
 GridStatusRaidDebuff:DebuffId(zoneid, 421971, 101, 5, 5, true) --Controlled Burn
@@ -13,6 +50,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 422053, 107, 5, 5, true) --Shadow Spines*
 GridStatusRaidDebuff:DebuffId(zoneid, 425816, 108, 5, 5, true) --Blazing Pollen*
 GridStatusRaidDebuff:DebuffId(zoneid, 425819, 109, 5, 5, true) --Flaming Sap*
 GridStatusRaidDebuff:DebuffId(zoneid, 424352, 110, 5, 5, true) --Dreadfire Barrage*
+GridStatusRaidDebuff:DebuffId(zoneid, 424970, 111, 5, 5, true) --Toxic Loam
 
 GridStatusRaidDebuff:BossNameId(zoneid, 200, "Igira the Cruel")
 GridStatusRaidDebuff:DebuffId(zoneid, 414340, 201, 5, 5, true) --Drenched Blades
@@ -52,6 +90,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 420671, 412, 5, 5, true) --Noxious Blossom
 GridStatusRaidDebuff:DebuffId(zoneid, 421020, 413, 5, 5, true) --Agonizing Claws*
 GridStatusRaidDebuff:DebuffId(zoneid, 420937, 414, 5, 5, true) --Relentless Barrage*
 GridStatusRaidDebuff:DebuffId(zoneid, 423522, 415, 5, 5, true) --Unstable Venom*
+GridStatusRaidDebuff:DebuffId(zoneid, 420948, 415, 5, 5, true) --Barreling Charge
+GridStatusRaidDebuff:DebuffId(zoneid, 421022, 415, 5, 5, true) --Agonizing Claws
 
 GridStatusRaidDebuff:BossNameId(zoneid, 500, "Larodar, Keeper of the Flame")
 GridStatusRaidDebuff:DebuffId(zoneid, 425889, 501, 5, 5, true) --Igniting Growth
@@ -66,6 +106,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 427343, 509, 5, 5, true) --Fire Whirl
 GridStatusRaidDebuff:DebuffId(zoneid, 421594, 510, 5, 5, true) --Smoldering Suffocation
 GridStatusRaidDebuff:DebuffId(zoneid, 428946, 511, 5, 5, true) --Ashen Asphyxiation
 GridStatusRaidDebuff:DebuffId(zoneid, 421323, 512, 5, 5, true) --Searing Ash
+GridStatusRaidDebuff:DebuffId(zoneid, 423610, 512, 5, 5, true) --Consuming Flame
 
 GridStatusRaidDebuff:BossNameId(zoneid, 600, "Nymue, Weaver of the Cycle")
 GridStatusRaidDebuff:DebuffId(zoneid, 429785, 601, 5, 5, true) --Impending Loom
@@ -82,6 +123,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 423842, 611, 5, 5, true) --Verdant Rend
 GridStatusRaidDebuff:DebuffId(zoneid, 418423, 612, 5, 5, true) --Verdant Matrix*
 GridStatusRaidDebuff:DebuffId(zoneid, 420846, 613, 5, 5, true) --Continuum*
 GridStatusRaidDebuff:DebuffId(zoneid, 428012, 614, 5, 5, true) --Lucid Miasma*	
+GridStatusRaidDebuff:DebuffId(zoneid, 427721, 615, 5, 5, true) --Weaver's Burden
 
 GridStatusRaidDebuff:BossNameId(zoneid, 700, "Smolderon")
 GridStatusRaidDebuff:DebuffId(zoneid, 421656, 701, 5, 5, true) --Cauterizing Wound
@@ -114,6 +156,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 426687, 815, 5, 5, true) --Poisonous Mushr
 GridStatusRaidDebuff:DebuffId(zoneid, 421398, 816, 5, 5, true) --Fire Beam*
 GridStatusRaidDebuff:DebuffId(zoneid, 424665, 817, 5, 5, true) --Seed of Flame*
 GridStatusRaidDebuff:DebuffId(zoneid, 422325, 818, 5, 5, true) --Flaming Tree*
+GridStatusRaidDebuff:DebuffId(zoneid, 424578, 819, 5, 5, true) -- Blazing Mushroom
+GridStatusRaidDebuff:DebuffId(zoneid, 427928, 820, 5, 5, true) -- Flaming Germination
 
 GridStatusRaidDebuff:BossNameId(zoneid, 900, "Fyrakk the Blazing")
 GridStatusRaidDebuff:DebuffId(zoneid, 425483, 901, 5, 5, true) --Incinerated
