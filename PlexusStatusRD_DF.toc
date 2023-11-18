@@ -15,3 +15,4 @@
 
 VaultoftheIncarnates.lua
 AberrustheShadowedCrucible.lua
+AmirdrassiltheDreamsHope.lua
