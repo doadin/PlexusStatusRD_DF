@@ -110,9 +110,9 @@ GridStatusRaidDebuff:DebuffId(zoneid, 423610, 512, 5, 5, true) --Consuming Flame
 
 GridStatusRaidDebuff:BossNameId(zoneid, 600, "Nymue, Weaver of the Cycle")
 GridStatusRaidDebuff:DebuffId(zoneid, 429785, 601, 5, 5, true) --Impending Loom
-GridStatusRaidDebuff:DebuffId(zoneid, 430563, 602, 5, 5, true) --Ephemeral Flora
+GridStatusRaidDebuff:DebuffId(zoneid, 430563, 602, 6, 6, true) --Ephemeral Flora
 GridStatusRaidDebuff:DebuffId(zoneid, 430485, 603, 5, 5, true) --Reclamation
-GridStatusRaidDebuff:DebuffId(zoneid, 425357, 604, 5, 5, true) --Surging Growth
+GridStatusRaidDebuff:DebuffId(zoneid, 425357, 604, 6, 6, true) --Surging Growth
 GridStatusRaidDebuff:DebuffId(zoneid, 420907, 605, 5, 5, true) --Viridian Rain
 GridStatusRaidDebuff:DebuffId(zoneid, 423195, 606, 5, 5, true) --Inflorescence+
 GridStatusRaidDebuff:DebuffId(zoneid, 428273, 607, 5, 5, true) --Woven Resonance?
