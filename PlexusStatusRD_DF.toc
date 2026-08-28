@@ -15,6 +15,6 @@
 
 ## IconTexture: Interface\AddOns\Plexus\Media\icon
 
-VaultoftheIncarnates.lua
-AberrustheShadowedCrucible.lua
-AmirdrassiltheDreamsHope.lua
+VaultoftheIncarnates.lua [AllowLoadGameType standard]
+AberrustheShadowedCrucible.lua [AllowLoadGameType standard]
+AmirdrassiltheDreamsHope.lua [AllowLoadGameType standard]

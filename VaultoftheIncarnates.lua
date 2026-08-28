@@ -1,5 +1,9 @@
 -- local zone = "Vault of the Incarnates"
 local zoneid = 2119
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 -- "Eranog"
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Eranog")

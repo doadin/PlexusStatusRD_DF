@@ -1,5 +1,9 @@
 -- local zone = "Amirdrassil, the Dream's Hope"
 local zoneid = 2232
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 --Trash
 GridStatusRaidDebuff:DebuffId(zoneid, 418720, 1, 5, 5, true) --Polymorph Bomb"

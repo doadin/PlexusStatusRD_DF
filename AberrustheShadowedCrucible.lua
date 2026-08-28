@@ -1,5 +1,9 @@
 -- local zone = "Aberrus, the Shadowed Crucible"
 local zoneid = 2166
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 -- "Kazzara, the Hellforged"
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Kazzara, the Hellforged")
